@@ -1,0 +1,10 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="flight.main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<List items="{/BookingCollection?$top=10}" headerText="Flights" growing="true"
+			growingThreshold="4" growingScrollToLoad="false">
+			<StandardListItem title="{carrid}" description="{fldate}" 
+				 iconDensityAware="false" iconInset="false" />
+		</List>
+	</Page>
+</core:View>

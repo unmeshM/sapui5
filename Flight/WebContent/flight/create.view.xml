@@ -1,0 +1,16 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="flight.create" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:l="sap.ui.layout">
+	<Page title="Title">
+		<content>
+				<l:Grid>
+				    <Button id="flightBtn" text="Create Flight" press="createflight"/>
+				    <Button id="bookBtn" text="Book Flight" press="bookflight"/>
+				    <Button id="agencyBtn" text="create agency" press="createAgency"/>
+				    <Button id="updateBookingBtn" text="update booking" press="updateBooking"/>
+				    <Button id="updateAgency" text="update Agency" press="updateAgency"/>
+				    <Button id="deleteAgency" text="Delete Agency" press="deleteAgency"/>
+				</l:Grid>
+		</content>
+	</Page>
+</core:View>
